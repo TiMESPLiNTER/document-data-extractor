@@ -1,0 +1,14 @@
+{
+	"name": "timesplinter/document-data-extractor",
+	"license": "MIT",
+	"require": {
+		"google/cloud": "0.24.*",
+		"spatie/pdf-to-text": "1.0.*",
+		"thiagoalessio/tesseract_ocr": "1.0.0-RC"
+	},
+	"autoload": {
+		"psr-4": {
+			"DocumentDataExtractor\\": "src/"
+		}
+	}
+}
